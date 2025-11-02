@@ -1,4 +1,5 @@
 import graphene
+from alx_backend_graphql.schema import CRMQuery 
 
 class Query(CRMQuery, graphene.ObjectType):
     hello = graphene.String()
